@@ -23,7 +23,7 @@
 ## 2. Реализация программы
 ```c
 #include <stdio.h>
-int task();
+int task(int a, int x);
 void main() {
     int a=18, x=20, S;
     S = task(a, x);
