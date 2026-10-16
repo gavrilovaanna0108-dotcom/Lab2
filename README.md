@@ -23,10 +23,16 @@
 ## 2. Реализация программы
 ```c
 #include <stdio.h>
+int task();
 void main() {
     int a=18, x=20, S;
-    S = 75*a+(133-75)*x;
+    S = task(a, x);
     printf("%d",S);
+}
+int task(int a, int x){
+    int S;
+    S = a + 58 * x;
+    return S;
 }
 ```
 ## 3. Результат работы программы
